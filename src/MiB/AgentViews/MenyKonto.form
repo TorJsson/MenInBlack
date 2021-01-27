@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[0, 0, 500, 500]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[500, 500]"/>
+    </Property>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[500, 500]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace pref="370" max="32767" attributes="0"/>
+              <Component id="btnGoBack" min="-2" pref="120" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btnOpenBytLosenord" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="pnlData" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="149" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnGoBack" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="470" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pnlData" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="btnOpenBytLosenord" min="-2" pref="75" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnGoBack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="G&#xe5; tillbaka"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGoBackActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="pnlData">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblAgentTelefonRubrik" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblOmradeRubrik" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAgentNamnRubrik" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblAgentTelefon" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblAgentNamn" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                              <Component id="lblOmrade" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="27" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblAnstallningsdatumRubrik" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFaltAgentRubrik" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblOmradesChefRubrik" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblKontorsChefRubrik" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAdministratorRubrik" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblKontorsChef" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblOmradesChef" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFaltAgent" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAnstallningsdatum" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAdministrator" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOmradeRubrik" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblOmrade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAgentNamnRubrik" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAgentNamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAgentTelefonRubrik" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAgentTelefon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAnstallningsdatumRubrik" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAnstallningsdatum" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblFaltAgentRubrik" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFaltAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOmradesChefRubrik" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblOmradesChef" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblKontorsChefRubrik" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblKontorsChef" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAdministratorRubrik" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAdministrator" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="238" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblAdministrator">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$agentAdmin"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAdministratorRubrik">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Administrat&#xf6;r:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFaltAgentRubrik">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="F&#xe4;ltagent:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFaltAgent">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$faltAgent"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAnstallningsdatum">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$agentAnstDatum"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAnstallningsdatumRubrik">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Anst&#xe4;llningsdatum:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAgentTelefonRubrik">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Telefon:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAgentTelefon">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$agentTelefon"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAgentNamn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$agentNamn"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAgentNamnRubrik">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Agent:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOmradeRubrik">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Omr&#xe5;de:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOmrade">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$omr&#xe5;de"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOmradesChefRubrik">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Omr&#xe5;deschef:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOmradesChef">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$omradesChef"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblKontorsChefRubrik">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Kontorschef:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblKontorsChef">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="$kontorsChef"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnOpenBytLosenord">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Byt l&#xf6;senord"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOpenBytLosenordActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
